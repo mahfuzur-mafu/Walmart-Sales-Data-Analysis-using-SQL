@@ -76,7 +76,7 @@ This project provides an end-to-end data analysis solution for Walmart sales dat
    git clone <repo-url>
    cd <repo-directory>
 
-##Set Up Kaggle API
+## Set Up Kaggle API
 To download datasets from Kaggle, you need to set up the Kaggle API. Follow these steps:
 
 Place your kaggle.json file in the .kaggle/ folder. If you don't have a kaggle.json file, you can create one by following the instructions on the Kaggle API documentation.
