@@ -76,6 +76,24 @@ This project provides an end-to-end data analysis solution for Walmart sales dat
    git clone <repo-url>
    cd <repo-directory>
 
+##Set Up Kaggle API
+To download datasets from Kaggle, you need to set up the Kaggle API. Follow these steps:
+
+Place your kaggle.json file in the .kaggle/ folder. If you don't have a kaggle.json file, you can create one by following the instructions on the Kaggle API documentation.
+
+Download the Walmart dataset using the Kaggle API:
+
+kaggle datasets download -d <dataset-path>
+Replace <dataset-path> with the actual path to the dataset you want to download.
+
+Run the Notebook
+Open the project.ipynb notebook in Jupyter or VS Code.
+
+Follow the sequential steps outlined in the notebook for data cleaning, feature engineering, and SQL integration.
+
+Analyze with SQL
+Use the provided SQL scripts to extract insights directly from the database. Ensure your database is set up and connected correctly.
+
 
 
 ## Dataset Description
