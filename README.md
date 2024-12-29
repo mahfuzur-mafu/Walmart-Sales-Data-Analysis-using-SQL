@@ -77,7 +77,6 @@ This project provides an end-to-end data analysis solution for Walmart sales dat
    cd <repo-directory>
 
 
- # Walmart Transactional Data Analysis
 
 ## Dataset Description
 This project uses transactional data from Walmart to derive insights into sales, profitability, and customer behavior. The dataset includes the following key columns:
