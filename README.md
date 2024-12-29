@@ -75,3 +75,54 @@ This project provides an end-to-end data analysis solution for Walmart sales dat
    ```bash
    git clone <repo-url>
    cd <repo-directory>
+
+
+ # Walmart Transactional Data Analysis
+
+## Dataset Description
+This project uses transactional data from Walmart to derive insights into sales, profitability, and customer behavior. The dataset includes the following key columns:
+
+- **branch**: Identifier for branches
+- **city**: Location of branches
+- **payment_method**: Mode of payment
+- **unit_price**: Price per unit
+- **quantity**: Number of units sold
+- **rating**: Customer ratings
+- **profit_margin**: Profit margin on products
+- **date**: Transaction date
+- **time**: Transaction time
+- **category**: Product category
+- **total**: Total transaction amount
+
+## Analysis
+
+### Basic Queries
+- **Fetch all data**
+- **Count total transactions**
+
+### Grouping and Aggregation
+- **Count distinct payment methods and transactions per method**
+- **Calculate the total quantity sold by payment method**
+
+### Branch and Category Analysis
+- **Identify low-performing branches**
+- **Find the highest-rated categories per branch**
+- **Determine low-performing categories**
+
+### Shift and Time-based Analysis
+- **Analyze busiest day per branch**
+- **Categorize sales into Morning, Afternoon, and Evening shifts**
+
+### Revenue Comparison
+- **Compare branch revenues for 2022 and 2023, highlighting revenue declines**
+
+## Results and Insights
+Key insights derived from the project include:
+
+- **Sales Insights**: Identification of key product categories, branches with the highest sales, and preferred payment methods.
+- **Profitability**: Insights into the most profitable product categories and branch locations.
+- **Customer Behavior**: Trends in customer ratings, payment preferences, and peak shopping hours.
+- **Branch Comparisons**: Revenue trends and performance evaluations over time, including a comparison of branch revenues for 2022 and 2023.
+
+## Conclusion
+This analysis provides valuable insights into Walmart's transactional data, helping to understand sales performance, customer preferences, and profitability across different branches and product categories. These insights can inform strategic decisions to enhance overall business performance.
